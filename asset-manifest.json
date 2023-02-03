@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/x-course-task/static/css/main.4d8e2354.css",
+    "main.js": "/x-course-task/static/js/main.7d026e77.js",
+    "static/media/search.svg": "/x-course-task/static/media/search.981b582ea232c3cb047eca919deaf9e8.svg",
+    "index.html": "/x-course-task/index.html",
+    "main.4d8e2354.css.map": "/x-course-task/static/css/main.4d8e2354.css.map",
+    "main.7d026e77.js.map": "/x-course-task/static/js/main.7d026e77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d8e2354.css",
+    "static/js/main.7d026e77.js"
+  ]
+}
