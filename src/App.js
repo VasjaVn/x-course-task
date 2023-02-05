@@ -56,7 +56,7 @@ const App = () => {
           <Route path="/x-course-task/cart" element={<Cart onChangeCountCartItems={onChangeCountCartItems} />} />
           <Route path="/x-course-task/books" element={<Books/>} />
           <Route path="/x-course-task/books/:bookID" element={<Book onChangeCountCartItems={onChangeCountCartItems}/>} />
-          <Route path="/x-course-task/*" element={<PageNotFound/>}/>
+          <Route path="*" element={<PageNotFound/>}/>
         </Routes>
       <Footer/>
     </div>
