@@ -1,0 +1,45 @@
+.book .container {
+    align-items: flex-start;
+}
+
+.book .container div:nth-of-type(1) {
+    width: 25%;
+} 
+
+.book .container div:nth-of-type(2) {
+    width: 55%;
+    padding-right: 20px;
+    color: #f9d3b4;
+} 
+
+.book .container div:nth-of-type(3) {
+    width: 20%;
+} 
+
+.book img {
+    width: 400px;
+    border-radius: 1rem;
+}
+
+.book div p {
+    color: #a1a1a1; 
+    margin-bottom: 1rem;   
+}
+  
+.book .pagination-container {
+    margin-top: 1rem;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+}  
+
+.book .pagination-container a {
+    
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: green;
+}

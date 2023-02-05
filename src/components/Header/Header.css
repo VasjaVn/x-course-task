@@ -1,0 +1,74 @@
+.header-container {
+    margin-top: 1px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 10px 0;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.header-container a[href="/"] {
+    text-decoration: none;
+}
+
+.header-container-left {
+    width: 100%;
+  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-container-left img {
+    margin: 0;
+    padding: 0;
+    width: 65px;
+}
+
+.header-container-right {
+    width: 18%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container-right img {
+    width: 50px;
+    height: 50px;
+}
+
+.header-container-right a[href="/cart"] {
+    text-decoration: none;
+}
+
+.header-container-right span {
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background: blue;
+}
+
+.header-container-right span:hover {
+    box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+}
+
+.header-container-right .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    background-image: url("../../static/img/wh.png");
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.header-container-right h2 {
+    color: white;
+}

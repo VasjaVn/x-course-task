@@ -1,0 +1,9 @@
+.cart-full-container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  
+    width: 100%;
+}

@@ -1,0 +1,66 @@
+.signin-container {
+    width: 30%;
+    margin-top: 2rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+
+form#signinForm div#imgBorder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 1.1rem 1.75rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+}
+
+form#signinForm img {
+    width: 320px;
+    height: 320px;
+}
+
+form#signinForm p {
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-align: center;
+    color: #a1a1a1; 
+}
+
+form#signinForm input {
+    border: none;
+    font-size: 1.5rem;
+    font-family: var(--font-raleway);
+    font-weight: 500;
+    padding-right: 1rem;
+  
+    outline: none;
+    color: #a1a1a1;
+    background: #1f2123;
+
+    width: 100%;  
+    padding: 1.1rem 1.75rem;
+    border-radius: 3rem;
+    box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  }
+  
+
+form#signinForm button {
+    border: none;
+    background: blue;
+    border-radius: 3rem;
+    height: 60px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: white;
+    box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+}
+
+form#signinForm button:hover {
+    cursor: pointer;
+}
