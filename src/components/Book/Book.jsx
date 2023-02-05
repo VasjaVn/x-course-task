@@ -20,16 +20,16 @@ const Book = ({ onChangeCountCartItems }) => {
 
     if (getValueFromStorageSignin() === "false") {
         return (
-            <Navigate to="/signin"/>
+            <Navigate to="/x-course-task/signin"/>
         );
     }
 
     return (
         <main className="book">
             <div className="pagination-container">
-                <Link to={'/books/' + correctId(book.id - 1) }>&lt;&lt;</Link>
+                <Link to={'/x-course-task/books/' + correctId(book.id - 1) }>&lt;&lt;</Link>
                 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                <Link to={'/books/' + correctId(book.id + 1) }>&gt;&gt;</Link>
+                <Link to={'/x-course-task/books/' + correctId(book.id + 1) }>&gt;&gt;</Link>
             </div>
             <div className="container">
                 <div>

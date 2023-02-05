@@ -53,7 +53,7 @@ const Cart = ({ onChangeCountCartItems }) => {
 
     if (getValueFromStorageSignin() === "false") {
         return (
-            <Navigate to="/signin"/>
+            <Navigate to="/x-course-task/signin"/>
         );
     }
 

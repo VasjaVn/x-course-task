@@ -7,7 +7,7 @@ import "./Header.css"
 const Header = ({ countCartItems, userName, onSignOut }) => {
     return (
         <header className="header-container">
-                <Link to="/">
+                <Link to="/x-course-task/">
                     <div className="header-container-left">
                             <img src={imgBooks} alt="books" />
                             <h1>JS BAND STORE / Vasja Vn (v V)</h1>
@@ -15,11 +15,11 @@ const Header = ({ countCartItems, userName, onSignOut }) => {
                 </Link>
                 {getValueFromStorageSignin() === "true" &&
                     <div className="header-container-right"> 
-                        <Link to="/cart">
+                        <Link to="/x-course-task/cart">
                             <span style={{"background": "red"}}>{countCartItems}</span>
                             <img src={imgCart} alt="cart" />   
                         </Link>                   
-                        <Link to="/signin" onClick={onSignOut}><span>Sign-Out</span></Link>              
+                        <Link to="/x-course-task/signin" onClick={onSignOut}><span>Sign-Out</span></Link>              
                         <div className="circle"></div>
                         <div>
                             <h2>{userName}</h2>

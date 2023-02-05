@@ -14,7 +14,7 @@ const BookCard = ({ book }) => {
                 <span>{book.title}</span>
                 <h3>{book.author}</h3>
                 <p>{book.price} $</p>
-                <Link to={'/books/' + book.id}>View</Link>
+                <Link to={'/x-course-task/books/' + book.id}>View</Link>
             </div>
         </div>
      );

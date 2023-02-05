@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Signin from './components/Signin/Signin'
 import Books from './components/Books/Books'
@@ -51,13 +51,13 @@ const App = () => {
     <div className="app">
       <Header userName={userName} countCartItems={countCartItems} onSignOut={onSignOut}/>
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/signin" element={<Signin onSignIn={onSignIn}/>} />
-        <Route path="/cart" element={<Cart onChangeCountCartItems={onChangeCountCartItems} />} />
-        <Route path="/books" element={<Books/>} />
-        <Route path="/books/:bookID" element={<Book onChangeCountCartItems={onChangeCountCartItems}/>} />
-        <Route path="*" element={<PageNotFound/>}/>
-      </Routes>
+          <Route path="/x-course-task/" element={<Home/>} />
+          <Route path="/x-course-task/signin" element={<Signin onSignIn={onSignIn}/>} />
+          <Route path="/x-course-task/cart" element={<Cart onChangeCountCartItems={onChangeCountCartItems} />} />
+          <Route path="/x-course-task/books" element={<Books/>} />
+          <Route path="/x-course-task/books/:bookID" element={<Book onChangeCountCartItems={onChangeCountCartItems}/>} />
+          <Route path="/x-course-task/*" element={<PageNotFound/>}/>
+        </Routes>
       <Footer/>
     </div>
   );

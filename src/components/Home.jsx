@@ -4,11 +4,11 @@ import { getValueFromStorageSignin } from '../utils/signin-storage';
 const Home = () => {
     if (getValueFromStorageSignin() === "true") {
         return (
-            <Navigate to="/books"/>
+            <Navigate to="/x-course-task/books"/>
         );
     } else {
         return (
-            <Navigate to="/signin"/>
+            <Navigate to="/x-course-task/signin"/>
         );
     }
 }

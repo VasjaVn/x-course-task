@@ -11,7 +11,7 @@
     border-bottom: 2px solid gray;
 }
 
-.header-container a[href="/"] {
+.header-container a[href="/x-course-task/"] {
     text-decoration: none;
 }
 
@@ -42,7 +42,7 @@
     height: 50px;
 }
 
-.header-container-right a[href="/cart"] {
+.header-container-right a[href="/x-course-task/cart"] {
     text-decoration: none;
 }
 

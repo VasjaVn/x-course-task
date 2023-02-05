@@ -25,7 +25,7 @@ const Signin = ({ onSignIn }) => {
 
     if (getValueFromStorageSignin() === "true") {
         return (
-            <Navigate to="/books"/>
+            <Navigate to="/x-course-task/books"/>
         );
     } else {
         return (
@@ -43,7 +43,7 @@ const Signin = ({ onSignIn }) => {
                         <input type="text" onChange={e => {setUsername(e.target.value.trim())}} placeholder="Type username" />
                     </fieldset>
                     <fieldset>
-                        <Link to="/books">
+                        <Link to="/x-course-task/books">
                             <button onClick={e => handleClick(e)}>Sign-In</button>
                         </Link>
                     </fieldset>
